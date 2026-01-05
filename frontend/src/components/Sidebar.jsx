@@ -52,7 +52,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                             to="/"
                             className="flex items-center justify-center gap-2 py-2.5 mt-6 rounded-xl
               text-white font-medium
-              bg-gradient-to-r from-indigo-500 to-purple-600
+              bg-linear-to-r from-indigo-500 to-purple-600
               hover:from-indigo-600 hover:to-purple-700
               active:scale-95 transition"
                         >

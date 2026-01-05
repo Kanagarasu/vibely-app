@@ -26,7 +26,7 @@ function Login() {
 
           </div>
 
-          <h1 className='text-3xl md:text-6xl md:pb-2 font-bold bg-gradient-to-r from-indigo-950 to-indigo-800 bg-clip-text'>More then just friends truly connect</h1>
+          <h1 className='text-3xl md:text-6xl md:pb-2 font-bold bg-linear-to-r from-indigo-950 to-indigo-800 bg-clip-text'>More then just friends truly connect</h1>
           <p>connect with global community on vibely</p>
         </div>
         <span className='md:h-10'></span>

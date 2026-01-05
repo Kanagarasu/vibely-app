@@ -26,8 +26,8 @@ function StoriesBar() {
             <div className="flex gap-4 flex-nowrap">
 
                 {/*  CREATE STORY CARD */}
-                <div onClick={()=>setShowModel(true)} className="relative flex-shrink-0 w-28 h-40 rounded-xl border border-gray-200
-                bg-gradient-to-b from-indigo-50 to-white
+                <div onClick={()=>setShowModel(true)} className="relative shrink-0 w-28 h-40 rounded-xl border border-gray-200
+                bg-linear-to-b from-indigo-50 to-white
                 flex flex-col items-center justify-center gap-3
                 cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1
                 transition-all duration-200 active:scale-95">
@@ -45,7 +45,7 @@ function StoriesBar() {
                 {stories.map((story, index) => (
                     <div onClick={()=>setViewStory(story)} key={index} className={`relative rounded-lg shadow min-w-30 max-w-30 max-h-40
                     cursor-pointer hover:shadow-lg transition-all duration-200
-                    bg-gradient-to-b from-indigo-500 to-purple-600
+                    bg-linear-to-b from-indigo-500 to-purple-600
                     hover:from-indigo-700 hover:to-purple-800 active:scale-95`}>
                         <img src={story.user.profile_picture} alt="" className="absolute w-8 h-8 top-3 left-3 z-10 rounded-full ring-2 ring-gray-100 shadow" />
 

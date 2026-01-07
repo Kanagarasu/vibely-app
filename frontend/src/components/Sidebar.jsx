@@ -49,7 +49,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                     {/* CREATE POST */}
                     <div className="px-6">
                         <Link
-                            to="/"
+                            to="/create-post"
                             className="flex items-center justify-center gap-2 py-2.5 mt-6 rounded-xl
               text-white font-medium
               bg-linear-to-r from-indigo-500 to-purple-600

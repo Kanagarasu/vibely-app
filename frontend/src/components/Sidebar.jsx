@@ -3,7 +3,8 @@ import { assets, dummyUserData } from '../assets/assets'
 import { Link, useNavigate } from 'react-router-dom'
 import Menuitems from './Menuitems'
 import { CirclePlus, LogOut } from 'lucide-react'
-import { UserButton, useClerk } from '@clerk/clerk-react'
+import { UserButton, useClerk } from '@clerk/clerk-react';
+import logo from '../assets/logo1.png';
 
 function Sidebar({ sidebarOpen, setSidebarOpen }) {
     const navigate = useNavigate()
@@ -37,9 +38,9 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                 <div className="w-full">
                     <img
                         onClick={() => navigate('/')}
-                        src={assets.logo}
+                        src={logo}
                         alt="logo"
-                        className="w-28 ml-6 my-4 cursor-pointer"
+                        className="w-35 ml-10 my-4 cursor-pointer"
                     />
 
                     <hr className="border-gray-200 mb-4" />
